@@ -11,7 +11,7 @@
 	"VersionsRequired": [
 		{
 			"Product":	"Helios",
-			"Minimum":	"_MinimumReleaseLevel",
+			"Minimum":	"_minheliosrelease",
 			"Maximum":	null
 		}
 	],
@@ -23,13 +23,13 @@
 					"Version":	"_ProfileVersionNumber",
 					"AspectRatio": "16:9",
 					"NativeResolution": "1920x1080",
-                    "Description": "Aicraft:\t\t_Author {aircraft} _ProfileVersionNumber\nRequirements:\tHelios _MinimumReleaseLevel or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
+                    "Description": "Aicraft:\t\t_Author {aircraft} _ProfileVersionNumber\nRequirements:\tHelios _minheliosrelease or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
                     "Excludes": [
                     ],
 					"VersionsRequired": [
 											{
 												"Product":	"Helios",
-												"Minimum":	"_MinimumReleaseLevel",
+												"Minimum":	"_minheliosrelease",
 												"Maximum":	null
 											}
 										],
