@@ -3901,47 +3901,6 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Clock" SnapTarget="True" Locked="False">
-          <Location>1281,55</Location>
-          <Size>158,158</Size>
-          <Hidden>False</Hidden>
-          <Background />
-          <Interaction>
-            <AllowInteractionFull>False</AllowInteractionFull>
-            <AllowInteractionNone>True</AllowInteractionNone>
-            <AllowInteractionLegacy>False</AllowInteractionLegacy>
-          </Interaction>
-          <Children>
-            <Control TypeIdentifier="Helios.F5E.Instruments.Clock" Name="Clock" SnapTarget="True" Locked="False">
-              <Location>9,8</Location>
-              <Size>135,135</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\F-5E\Sphere_2.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.100712454248302</DefaultOpacity>
-              <Interaction>
-                <AllowInteraction>False</AllowInteraction>
-              </Interaction>
-              <Location>9,8</Location>
-              <Size>135,135</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="bezel" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\F-5E\Bezels_And_Faces\Bezel_2.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>0,0</Location>
-              <Size>153,153</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-          </Children>
-        </Control>
         <Control TypeIdentifier="Helios.Panel" Name="ADI " SnapTarget="True" Locked="False">
           <Location>511,150</Location>
           <Size>235,235</Size>
@@ -4169,6 +4128,75 @@
               <Location>0,0</Location>
               <Size>89,89</Size>
               <Hidden>False</Hidden>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="Clock" SnapTarget="True" Locked="False">
+          <Location>1270,55</Location>
+          <Size>170,170</Size>
+          <Hidden>False</Hidden>
+          <Background />
+          <Interaction>
+            <AllowInteractionFull>False</AllowInteractionFull>
+            <AllowInteractionNone>True</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children>
+            <Control TypeIdentifier="Helios.F5E.Instruments.Clock" Name="Clock" SnapTarget="True" Locked="False">
+              <Location>19,8</Location>
+              <Size>135,135</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\F-5E\Sphere_2.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <DefaultOpacity>0.100712454248302</DefaultOpacity>
+              <Interaction>
+                <AllowInteraction>False</AllowInteraction>
+              </Interaction>
+              <Location>19,8</Location>
+              <Size>135,135</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="bezel" SnapTarget="False" Locked="False">
+              <Image>MadKreator37\F-5E\Bezels_And_Faces\Bezel_2.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>10,0</Location>
+              <Size>153,153</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Tactile Round" SnapTarget="True" Locked="False">
+              <Location>129,1</Location>
+              <Size>30,30</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37\F-5E\Buttons_Knobs_Switches\Engine_Start_Norm.png</Image>
+              <PushedImage>MadKreator37\F-5E\Buttons_Knobs_Switches\Engine_Start_Pressed.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder" SnapTarget="True" Locked="False">
+              <Location>0,104</Location>
+              <Size>60,60</Size>
+              <Hidden>False</Hidden>
+              <KnobImage>MadKreator37\F-5E\Buttons_Knobs_Switches\Clock_Winding_Knob.png</KnobImage>
+              <RotationStep>5</RotationStep>
+              <StepValue>0.1</StepValue>
+              <InitialRotation>0</InitialRotation>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Tactile Round 1" SnapTarget="True" Locked="False">
+              <Location>18,122</Location>
+              <Size>24,24</Size>
+              <Hidden>False</Hidden>
+              <Type>Toggle</Type>
+              <Image>MadKreator37\F-5E\Buttons_Knobs_Switches\Knob_10.png</Image>
+              <PushedImage>MadKreator37\F-5E\Buttons_Knobs_Switches\Engine_Start_Pressed.png</PushedImage>
               <Children />
             </Control>
           </Children>
@@ -11068,26 +11096,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.CLOCK Currtime Hours.changed" />
-      <Action Target="Visual;Monitor 2.Clock.Clock;Helios.F5E.Instruments.Clock;Clock" Name="set.Clock Hours" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.CLOCK Currtime Minutes.changed" />
-      <Action Target="Visual;Monitor 2.Clock.Clock;Helios.F5E.Instruments.Clock;Clock" Name="set.Clock Minutes" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.CLOCK Elapsed Time Minutes.changed" />
-      <Action Target="Visual;Monitor 2.Clock.Clock;Helios.F5E.Instruments.Clock;Clock" Name="set.Clock Stopwatch Minutes" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.CLOCK Elapsed Time Seconds.changed" />
-      <Action Target="Visual;Monitor 2.Clock.Clock;Helios.F5E.Instruments.Clock;Clock" Name="set.Clock Stopwatch Seconds" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.Flight Pressure.changed" />
       <Action Target="Visual;Monitor 2.Hydraulics Flight Control.Hydraulic Pressure Indicator;Helios.F5E.Instruments.HydraulicPressure;Hydraulic Pressure Indicator" Name="set.Hydraulic Pressure" />
       <TriggerValue />
@@ -11270,6 +11278,36 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Sight.AN/ASG-31 Sight   Intensity Knob.changed" />
       <Action Target="Visual;Monitor 2.Gunsight Panel.Ret Int;Helios.Base.Potentiometer;Ret Int" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.CLOCK Currtime Hours.changed" />
+      <Action Target="Visual;Monitor 2.Clock.Clock;Helios.F5E.Instruments.Clock;Clock" Name="set.Clock Hours" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.CLOCK Currtime Minutes.changed" />
+      <Action Target="Visual;Monitor 2.Clock.Clock;Helios.F5E.Instruments.Clock;Clock" Name="set.Clock Minutes" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.CLOCK Elapsed Time Minutes.changed" />
+      <Action Target="Visual;Monitor 2.Clock.Clock;Helios.F5E.Instruments.Clock;Clock" Name="set.Clock Stopwatch Minutes" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.CLOCK Elapsed Time Seconds.changed" />
+      <Action Target="Visual;Monitor 2.Clock.Clock;Helios.F5E.Instruments.Clock;Clock" Name="set.Clock Stopwatch Seconds" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.ABU-11 CLOCK Elapsed Time Knob.changed" />
+      <Action Target="Visual;Monitor 2.Clock.Tactile Round;Helios.Base.PushButton;Tactile Round" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.ABU-11 CLOCK Setting Knob.changed" />
+      <Action Target="Visual;Monitor 2.Clock.Tactile Round 1;Helios.Base.PushButton;Tactile Round 1" Name="set.physical state" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -11745,6 +11783,26 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Radio Button Invis;Helios.Base.PushButton;Radio Button Invis" Name="released" />
       <Action Target="Visual;Monitor 2.Radio Tacan Console;Helios.Panel;Radio Tacan Console" Name="toggle.hidden" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Clock.Tactile Round;Helios.Base.PushButton;Tactile Round" Name="pushed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.push.ABU-11 CLOCK Elapsed Time Knob" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Clock.Tactile Round;Helios.Base.PushButton;Tactile Round" Name="released" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.release.ABU-11 CLOCK Elapsed Time Knob" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Clock.Tactile Round 1;Helios.Base.PushButton;Tactile Round 1" Name="closed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.push.ABU-11 CLOCK Setting Knob" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Clock.Tactile Round 1;Helios.Base.PushButton;Tactile Round 1" Name="open" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.release.ABU-11 CLOCK Setting Knob" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
