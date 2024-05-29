@@ -18,6 +18,7 @@ env:
   MINHELIOSRELEASE: 1.6.6090.00000
   PROFILENAME: F-5E_MadKreator37
   AUTHOR: MadKreator37
+  PRODUCER: BelSimTek
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -87,12 +88,13 @@ jobs:
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.VEHICLE }}'_'${{ env.AUTHOR }}'.hpf'
           mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ env.AUTHOR }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.VEHICLE }}_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
           echo Substituting info in the Profile16.json manifest
-          sed -i -- 's/_MinimumReleaseLevel/${{ env.MINHELIOSRELEASE }}/g' Profile16.json
+          sed -i -- 's/_MinHeliosRelease/${{ env.MINHELIOSRELEASE }}/g' Profile16.json
           sed -i -- 's/_ReleaseDate/'"$(date "+%d %B %Y")"'/g' Profile16.json
           sed -i -- 's/_ProfileVersionNumber/'"V${{ steps.bump_tag.outputs.tag }}"'/g' Profile16.json
           sed -i -- 's/_Vehicle/'"${{ env.VEHICLE }}"'/g' Profile16.json
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' Profile16.json
           sed -i -- 's#_Author#'${{ env.AUTHOR }}'#g' Profile16.json
+          sed -i -- 's#_Producer#'${{ env.PRODUCER }}'#g' Profile16.json
           sed -i -- 's/_Vehicle/'"${{ env.VEHICLE }}"'/g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
           sed -i -- 's#_Author#'${{ env.AUTHOR }}'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
           sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
