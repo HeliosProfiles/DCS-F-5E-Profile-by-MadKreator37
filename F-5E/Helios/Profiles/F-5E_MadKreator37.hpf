@@ -3969,7 +3969,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 3" SnapTarget="False" Locked="False">
-              <Image>Misc\Sphere_1.png</Image>
+              <Image>MadKreator37\F-5E\Sphere_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <DefaultOpacity>0.190145990605181</DefaultOpacity>
@@ -3977,7 +3977,7 @@
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
               <Location>14,13</Location>
-              <Size>201,201</Size>
+              <Size>202,202</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -4970,7 +4970,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
-              <Image>Misc\Pilot_Round_4.png</Image>
+              <Image>MadKreator37\F-5E\Pilot_Round_4.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <DefaultOpacity>0.144330997004875</DefaultOpacity>
@@ -4978,7 +4978,7 @@
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
               <Location>10,10</Location>
-              <Size>209,209</Size>
+              <Size>208,206</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -5106,7 +5106,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 2" SnapTarget="False" Locked="False">
-              <Image>Misc\pilot round2.png</Image>
+              <Image>MadKreator37\F-5E\Pilot_Round_2.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
               <DefaultOpacity>0.0503809862397694</DefaultOpacity>
@@ -5114,7 +5114,7 @@
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
               <Location>-2,-2</Location>
-              <Size>157,157</Size>
+              <Size>148,147</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -7092,13 +7092,13 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <Children>
-                <Control TypeIdentifier="Helios.F5E.Instruments.OxygenSuppyPressure" Name="Oxygen Supply Pressure Gauge" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.F5E.Instruments.OxygenSuppyPressure" Name="Oxygen Supply Pressure Gauge" SnapTarget="True" Locked="False">
                   <Location>248,28</Location>
                   <Size>100,100</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="black backing" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="black backing" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\F-5E\Black_Circle.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -7107,7 +7107,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomTape" Name="Blinker" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomTape" Name="Blinker" SnapTarget="True" Locked="False">
                   <Location>16,40</Location>
                   <Size>109,42</Size>
                   <Hidden>False</Hidden>
@@ -7143,7 +7143,7 @@
                   <MaxInputRotation>1</MaxInputRotation>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\F-5E\Sphere_1.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -7156,7 +7156,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Base" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="Base" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\F-5E\Bezels_And_Faces\Oxygen_Panel.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -7165,7 +7165,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Test button image" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="Test button image" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\F-5E\Buttons_Knobs_Switches\Oxy_Test_Norm.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -7174,7 +7174,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="diluter lev" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="diluter lev" SnapTarget="True" Locked="False">
                   <Location>197,124</Location>
                   <Size>20,113</Size>
                   <Hidden>False</Hidden>
@@ -7186,7 +7186,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="emerg lev" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="emerg lev" SnapTarget="True" Locked="False">
                   <Location>75,123</Location>
                   <Size>20,113</Size>
                   <Hidden>False</Hidden>
@@ -7199,7 +7199,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="supply lev" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="supply lev" SnapTarget="True" Locked="False">
                   <Location>329,125</Location>
                   <Size>20,113</Size>
                   <Rotation>ROT180</Rotation>
