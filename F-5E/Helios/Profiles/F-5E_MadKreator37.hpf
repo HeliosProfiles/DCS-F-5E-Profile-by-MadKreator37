@@ -73,8 +73,8 @@
           <RequiresPatches>True</RequiresPatches>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="sky" SnapTarget="False" Locked="True">
-          <Image>MadKreator37\F-5E\Sunrise_1.png</Image>
+        <Control TypeIdentifier="Helios.Base.Image" Name="sky" SnapTarget="False" Locked="False">
+          <Image>C:\Users\Elite\Documents\GitHub\DCS-F-5E-Profile-by-MadKreator37\F-5E\Helios\Images\MadKreator37\F-5E\Sunrise_3.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>0,0</Location>
@@ -4184,15 +4184,15 @@
               <Location>0,104</Location>
               <Size>60,60</Size>
               <Hidden>False</Hidden>
-              <KnobImage>MadKreator37\F-5E\Buttons_Knobs_Switches\Clock_Winding_Knob.png</KnobImage>
+              <KnobImage>MadKreator37\F-5E\Buttons_Knobs_Switches\Knob_4_Extended.png</KnobImage>
               <RotationStep>5</RotationStep>
               <StepValue>0.1</StepValue>
               <InitialRotation>0</InitialRotation>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Tactile Round 1" SnapTarget="True" Locked="False">
-              <Location>18,122</Location>
-              <Size>24,24</Size>
+              <Location>19,123</Location>
+              <Size>22,22</Size>
               <Hidden>False</Hidden>
               <Type>Toggle</Type>
               <Image>MadKreator37\F-5E\Buttons_Knobs_Switches\Knob_10.png</Image>
@@ -5001,7 +5001,7 @@
               <Image>MadKreator37\F-5E\Pilot_Round_4.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.144330997004875</DefaultOpacity>
+              <DefaultOpacity>0.11497161864078</DefaultOpacity>
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
@@ -11794,6 +11794,16 @@
       <Trigger Source="Visual;Monitor 2.Clock.Tactile Round;Helios.Base.PushButton;Tactile Round" Name="released" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.release.ABU-11 CLOCK Elapsed Time Knob" />
       <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Clock.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.incremented" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.increment.ABU-11 CLOCK Winding Knob" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Clock.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.decremented" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Clock.decrement.ABU-11 CLOCK Winding Knob" />
+      <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Clock.Tactile Round 1;Helios.Base.PushButton;Tactile Round 1" Name="closed" />
