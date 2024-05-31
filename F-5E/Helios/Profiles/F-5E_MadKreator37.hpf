@@ -74,11 +74,11 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="sky" SnapTarget="False" Locked="False">
-          <Image>C:\Users\Elite\Documents\GitHub\DCS-F-5E-Profile-by-MadKreator37\F-5E\Helios\Images\MadKreator37\F-5E\Sunrise_3.png</Image>
+          <Image>MadKreator37\F-5E\Storm_2.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>0,0</Location>
-          <Size>1920,173</Size>
+          <Size>1920,186</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
