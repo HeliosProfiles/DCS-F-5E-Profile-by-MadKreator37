@@ -13,4 +13,23 @@ This profile was designed and created by myself, in close collaboration with Blu
 *Special thanks to @IROPS|Joker for consulting, ideas (like the mfd) testing and feedback from the start.* 
 
 ### IMAGES
+![Screenshot 2024-06-01 184601](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/f04fc0b7-6c2b-46e6-a421-02c199874583)
+![Screenshot 2024-06-01 184711](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/97d41ae2-47c2-4655-8b76-2a33e86ca7b3)
+![Screenshot 2024-06-01 184625](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/69251b99-823c-48d1-994f-df3da807e5db)
+![Screenshot 2024-06-01 184659](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/d1a71899-05c5-4c31-892a-86498c1dfd23)
 
+
+### Limited Support
+
+Helios Official/ CaptnZeen [Discord](https://discord.gg/sJZDzmEW)
+
+or
+
+MadKreator37  [Discord](https://discord.gg/nzyfQr3K)
+
+
+### Notes
+
+-Due to the wide range of displays, monitors, TV's and tablets,  I cannot guarantee exact brightness levels or color accuracy results from user to user. This is not something I have any control of. If you have visual issues (too bright or too dark etc)  please calibrate your display and/or adjust settings in your GPU's software, brightness, contrast, sharpness, gamma, digital vibrance etc.(highly recommended anyway). It will probably enhance all other profiles as well. During testing, the profile was used and shown on multiple displays, and types,  to rule out any "game breaking" visuals but it is impossible for me to account for every scenario.
+
+-*Remember to always make a back up of files before making changes*
