@@ -31,7 +31,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: '0'
       - name: Set outputs
@@ -45,7 +45,7 @@ jobs:
         uses: anothrNick/github-tag-action@1.64.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_OWNER: HeliosVirtualCockpit
+          REPO_OWNER: HeliosProfiles
           DEFAULT_BUMP: 'patch'
           INITIAL_VERSION: '0.0.0'
       - name: Check outputs
