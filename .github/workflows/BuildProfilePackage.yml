@@ -37,9 +37,9 @@ jobs:
       - name: Set outputs
         id: vars
         run: |
-          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-          echo "date=$(date +'%d-%b-%Y')" >> $GITHUB_OUTPUT
-          echo "actor=${GITHUB_ACTOR}" >> $GITHUB_OUTPUT
+          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+          echo "date=$(date +'%d-%b-%Y')"  >> $GITHUB_ENV
+          echo "actor=${GITHUB_ACTOR}"  >> $GITHUB_ENV
       - name: Bump version and push 
         id: bump_tag
         uses: anothrNick/github-tag-action@1.64.0
@@ -52,7 +52,7 @@ jobs:
         run: |
           #env
           echo ${{ env.VEHICLE }} - ${{ env.VEHICLECOMMONNAME }}
-          echo "Commit SHA (short) - " ${{ steps.vars.outputs.sha_short }}
+          echo "Commit SHA (short) - " ${{ env.sha_short }}
           echo "New Release - V " ${{ steps.bump_tag.outputs.tag }}
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -106,7 +106,7 @@ jobs:
           mv ./${{ env.VEHICLE }}/Helios .
           zip -r output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16 ./Profile16.json ./LICENSE ./*.md ./Helios/ \
           -x ".git/*" ".github/*" "./Helios/Profiles/*.bak" "./Helios/Profiles/*.hply" "contents.md" "./*/contents.md" "./*/*/contents.md" "./*/*/*/contents.md" "./*/*/*/*/contents.md"
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }} helios16 profile package
           path: output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16
