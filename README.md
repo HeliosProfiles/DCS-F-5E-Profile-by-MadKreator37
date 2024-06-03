@@ -15,7 +15,7 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
-*Special thanks to @IROPS|Joker for consulting, ideas (like the mfd) testing and feedback from the start.* 
+*Special thanks to discord user IROPS|Joker for consulting, ideas (like the mfd) testing and feedback from the start.* 
 
 ### IMAGES
 ![Screenshot 2024-06-01 184601](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/f04fc0b7-6c2b-46e6-a421-02c199874583)
@@ -40,7 +40,8 @@ MadKreator37  https://discord.gg/ZCmReWUErQ
 
 1. Air conditioning manual/auto control switch is non functional
 2. Iff modes knobs do not increment DCS control to emergency positions
-3. 
+
+ 
 ### Notes
 
 -Due to the wide range of displays, monitors, TV's and tablets,  I cannot guarantee exact brightness levels or color accuracy results from user to user. This is not something I have any control of. If you have visual issues (too bright or too dark etc)  please calibrate your display and/or adjust settings in your GPU's software, brightness, contrast, sharpness, gamma, digital vibrance etc.(highly recommended anyway). It will probably enhance all other profiles as well. During testing, the profile was used and shown on multiple displays, and types,  to rule out any "game breaking" visuals but it is impossible for me to account for every scenario.
