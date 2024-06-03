@@ -9,7 +9,7 @@ In addition to the profile, the MFDs can have their viewports exported using pat
 
 ### Minimum Helios version required: 1.6.609
 
-### Please download and install via the Helios16 installer under ASSETS. Do not clone the repo and copy the files. The profile will not function correctly
+### Please download and install via the Helios16 installer under ASSETS. Do not clone the repo and copy the files. The profile will not function correctly!
 
 This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the F-5E cockpit, texture files or replicas were designed and created from scratch. Every piece used is specific to the F-5E.  The hope is to bring you the most complete, visually appealing and easy to use profile for the F-5e Tiger II in DCS that we could.  There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu, f-keys, Kneeboard functions etc... Along with a selectable F-5N Aggressor inspired "MFD". 
 
@@ -36,7 +36,11 @@ or
 
 MadKreator37  https://discord.gg/ZCmReWUErQ
 
+### Known Bugs
 
+1. Air conditioning manual/auto control switch is non functional
+2. Iff modes knobs do not increment DCS control to emergency positions
+3. 
 ### Notes
 
 -Due to the wide range of displays, monitors, TV's and tablets,  I cannot guarantee exact brightness levels or color accuracy results from user to user. This is not something I have any control of. If you have visual issues (too bright or too dark etc)  please calibrate your display and/or adjust settings in your GPU's software, brightness, contrast, sharpness, gamma, digital vibrance etc.(highly recommended anyway). It will probably enhance all other profiles as well. During testing, the profile was used and shown on multiple displays, and types,  to rule out any "game breaking" visuals but it is impossible for me to account for every scenario.
