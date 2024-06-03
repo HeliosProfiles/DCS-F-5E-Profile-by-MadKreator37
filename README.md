@@ -18,14 +18,18 @@ This profile was designed and created by myself, in close collaboration with Blu
 ![Screenshot 2024-06-01 184625](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/69251b99-823c-48d1-994f-df3da807e5db)
 ![Screenshot 2024-06-01 184659](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/d1a71899-05c5-4c31-892a-86498c1dfd23)
 
+###  STARTUP DEMO VIDEO
+
+https://youtu.be/eXY3hmhIej0?si=_4TiiXavBLTVrGAG
+
 
 ### Limited Support
 
-Helios Official/ CaptnZeen [Discord](https://discord.gg/sJZDzmEW)
+Helios Official/ CaptnZeen     https://discord.gg/VEjZ8RB4u7
 
 or
 
-MadKreator37  [Discord](https://discord.gg/nzyfQr3K)
+MadKreator37  https://discord.gg/ZCmReWUErQ
 
 
 ### Notes
