@@ -4744,10 +4744,10 @@
               <OffFlag_IsHidden>False</OffFlag_IsHidden>
               <MinHorizontal>-35</MinHorizontal>
               <HorizontalTravel>-820</HorizontalTravel>
-              <MinVertical>-30</MinVertical>
-              <VerticalTravel>41</VerticalTravel>
-              <MinRotation>16</MinRotation>
-              <RotationTravel>-16</RotationTravel>
+              <MinVertical>0</MinVertical>
+              <VerticalTravel>0</VerticalTravel>
+              <MinRotation>0</MinRotation>
+              <RotationTravel>0</RotationTravel>
               <InitialHorizontal>-427</InitialHorizontal>
               <InitialVertical>8</InitialVertical>
               <InitialRotation>0</InitialRotation>
@@ -10674,16 +10674,6 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.Standby Compass Heading.changed" />
       <Action Target="Visual;Monitor 2.Compass Panel.compass tape;Helios.Base.CustomTape;compass tape" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.Standby Compass Pitch.changed" />
-      <Action Target="Visual;Monitor 2.Compass Panel.compass tape;Helios.Base.CustomTape;compass tape" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.Standby Compass Bank.changed" />
-      <Action Target="Visual;Monitor 2.Compass Panel.compass tape;Helios.Base.CustomTape;compass tape" Name="set.Tape Rotation" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
