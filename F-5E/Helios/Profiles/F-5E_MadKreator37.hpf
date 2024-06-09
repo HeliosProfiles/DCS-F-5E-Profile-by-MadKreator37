@@ -11377,6 +11377,26 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.HSI Course.changed" />
+      <Action Target="Visual;Monitor 2.HSI.HSI;Helios.F5E.Instruments.HSI;HSI" Name="Instruments_HSI.set.HSI Course Drum" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.HSI Range to Beacon.changed" />
+      <Action Target="Visual;Monitor 2.HSI.HSI;Helios.F5E.Instruments.HSI;HSI" Name="Instruments_HSI.set.HSI Range to Beacon Drum" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.HSI Range Flag.changed" />
+      <Action Target="Visual;Monitor 2.HSI.HSI;Helios.F5E.Instruments.HSI;HSI" Name="Instruments_HSI.set.HSI Range to Beacon Off Flag" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Gauges.HSI Course Flag.changed" />
+      <Action Target="Visual;Monitor 2.HSI.HSI;Helios.F5E.Instruments.HSI;HSI" Name="Instruments_HSI.set.HSI Course Off Flag" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Weapons control Panel.Missile Vol;Helios.Base.Potentiometer;Missile Vol" Name="value.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS F-5E-3" Name="Weapons Control.set.Missile Volume Knob" />
       <TriggerValue />
