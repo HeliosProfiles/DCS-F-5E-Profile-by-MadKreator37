@@ -7,15 +7,20 @@ In addition to the profile, the MFDs can have their viewports exported using pat
 
 ### ABOUT
 
-### Minimum Helios version required: 1.6.609
+### Minimum Helios version required: 1.6.612
 
 ### Please download and install via the Helios16 installer under ASSETS. Do not clone the repo and copy the files. The profile will not function correctly!
 
 This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the F-5E cockpit, texture files or replicas were designed and created from scratch. Every piece used is specific to the F-5E.  The hope is to bring you the most complete, visually appealing and easy to use profile for the F-5e Tiger II in DCS that we could.  There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu, f-keys, Kneeboard functions etc... Along with a selectable F-5N Aggressor inspired "MFD". 
 
+### Version 1.0.3 
+- Now incluses a night profile along with the standard one. There is anew button to "Transfer Control" directly between the two.
+- Cleaned up accessory keys in UI and merged them into a single "Keys" panel
+
+
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
-*Special thanks to discord user IROPS|Joker for consulting, ideas (like the mfd) testing and feedback from the start.* 
+*Special thanks to discord user IROPS|Joker for consulting, ideas (like the mfd) testing and feedback from the start.*
 
 ### IMAGES
 ![Screenshot 2024-06-01 184601](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/f04fc0b7-6c2b-46e6-a421-02c199874583)
