@@ -20,13 +20,16 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
-*Special thanks to discord user IROPS|Joker for consulting, ideas (like the mfd) testing and feedback from the start.*
+*Special thanks to discord user IROPS|Joker for consulting, ideas (like the aggressor style mfd) testing and feedback during creation.*
 
-### IMAGES
-![Screenshot 2024-06-01 184601](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/f04fc0b7-6c2b-46e6-a421-02c199874583)
-![Screenshot 2024-06-01 184711](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/97d41ae2-47c2-4655-8b76-2a33e86ca7b3)
-![Screenshot 2024-06-01 184625](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/69251b99-823c-48d1-994f-df3da807e5db)
-![Screenshot 2024-06-01 184659](https://github.com/HeliosProfiles/DCS-F-5E-Profile-by-MadKreator37/assets/110797278/d1a71899-05c5-4c31-892a-86498c1dfd23)
+
+### IMAGES 
+![Screenshot 2025-01-07 202049](https://github.com/user-attachments/assets/a77425d2-f18b-41b0-a98a-bf74674c7a7e)
+![Screenshot 2025-01-07 202055](https://github.com/user-attachments/assets/32a4cfc8-b6aa-4f45-b5df-0b9466047328)
+![Screenshot 2025-01-07 202106](https://github.com/user-attachments/assets/5c203e21-d197-4d02-982d-4380ce010dc0)
+![Screenshot 2025-01-07 202002](https://github.com/user-attachments/assets/5e06359a-2c81-449a-aded-239f5ad06fc9)
+![Screenshot 2025-01-07 202009](https://github.com/user-attachments/assets/de03a67a-c3a6-4e6f-99e9-85e12e581ab7)
+![Screenshot 2025-01-07 202025](https://github.com/user-attachments/assets/b2105435-df14-4c64-ae93-1d98b11cd6c0)
 
 ###  STARTUP DEMO VIDEO
 
