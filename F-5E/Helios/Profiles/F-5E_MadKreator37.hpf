@@ -12836,7 +12836,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.key button 1;Helios.Base.PushButton;key button 1" Name="released" />
       <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="transfer control" />
-      <StaticValue>F-5E_Night_MadKreator37.hpf</StaticValue>
+      <StaticValue>F-5E_Night_ProfileVersionNumber_MadKreator37.hpf</StaticValue>
     </Binding>
   </Bindings>
 </HeliosProfile>
