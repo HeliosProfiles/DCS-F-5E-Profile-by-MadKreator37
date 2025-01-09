@@ -25,9 +25,9 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 
 ### IMAGES 
-![Screenshot 2025-01-07 202049](https://github.com/user-attachments/assets/a77425d2-f18b-41b0-a98a-bf74674c7a7e)
-![Screenshot 2025-01-07 202055](https://github.com/user-attachments/assets/32a4cfc8-b6aa-4f45-b5df-0b9466047328)
-![Screenshot 2025-01-07 202106](https://github.com/user-attachments/assets/5c203e21-d197-4d02-982d-4380ce010dc0)
+![Screenshot 2025-01-08 210346](https://github.com/user-attachments/assets/49e15a85-de6a-401d-97b7-9e455662834c)
+![Screenshot 2025-01-08 210352](https://github.com/user-attachments/assets/514a6695-40c8-4378-963a-7ead0239199f)
+![Screenshot 2025-01-08 210418](https://github.com/user-attachments/assets/83cb5e1b-bb57-40db-8e5b-c83b344c76ba)
 ![Screenshot 2025-01-07 202002](https://github.com/user-attachments/assets/5e06359a-2c81-449a-aded-239f5ad06fc9)
 ![Screenshot 2025-01-07 202009](https://github.com/user-attachments/assets/de03a67a-c3a6-4e6f-99e9-85e12e581ab7)
 ![Screenshot 2025-01-07 202025](https://github.com/user-attachments/assets/b2105435-df14-4c64-ae93-1d98b11cd6c0)
