@@ -14823,13 +14823,28 @@
       <StaticValue>\</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.F_Key Panel.brief button 1;Helios.Base.PushButton;brief button 1" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <Trigger Source="Visual;Monitor 2.F_Key Panel.brief button 1;Helios.Base.PushButton;brief button 1" Name="closed" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="press key" />
+      <StaticValue>{LALT}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.F_Key Panel.brief button 1;Helios.Base.PushButton;brief button 1" Name="closed" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="release key" />
       <StaticValue>{LALT}</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.F_Key Panel.brief button 1 1;Helios.Base.PushButton;brief button 1 1" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{RALT}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.F_Key Panel.brief button 1 1;Helios.Base.PushButton;brief button 1 1" Name="closed" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="press key" />
+      <StaticValue>{RALT}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.F_Key Panel.brief button 1 1;Helios.Base.PushButton;brief button 1 1" Name="closed" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="release key" />
       <StaticValue>{RALT}</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
