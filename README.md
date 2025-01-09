@@ -15,6 +15,7 @@ This profile was designed and created by myself, in close collaboration with Blu
 
 ### Version 1.0.3 
 - Now incluses a night profile along with the standard one. There is anew button to "Transfer Control" directly between the two.
+- Tweaked color profile in the Day Version to more resemble the new "F5-E Remaster"
 - Cleaned up accessory keys in UI and merged them into a single "Keys" panel
 
 
