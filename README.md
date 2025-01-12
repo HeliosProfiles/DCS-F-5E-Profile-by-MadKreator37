@@ -17,7 +17,9 @@ This profile was designed and created by myself, in close collaboration with Blu
 - Now incluses a night profile along with the standard one. There is anew button to "Transfer Control" directly between the two.
 - Tweaked color profile in the Day Version to more resemble the new "F5-E Remaster"
 - Cleaned up accessory keys in UI and merged them into a single "Keys" panel
-
+### Version 1.0.4
+- Adjust viewport names to match
+- minor UI adjustment
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
