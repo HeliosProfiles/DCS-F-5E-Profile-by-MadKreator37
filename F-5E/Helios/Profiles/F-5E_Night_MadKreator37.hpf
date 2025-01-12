@@ -70,7 +70,6 @@
           <Size>220,220</Size>
           <Hidden>False</Hidden>
           <ViewportName>RIGHT_MFCD</ViewportName>
-          <RequiresPatches>True</RequiresPatches>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="sky" SnapTarget="False" Locked="False">
@@ -918,17 +917,26 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
+        <Control TypeIdentifier="Helios.Base.Image" Name="Control center show base 1" SnapTarget="False" Locked="False">
+          <Image>MadKreator37\F-5E_Night\Buttons_Knobs_Switches\Generic_Button_Base.png</Image>
+          <Alignment>Stretched</Alignment>
+          <CornerRadius>0</CornerRadius>
+          <Location>213,726</Location>
+          <Size>67,34</Size>
+          <Hidden>False</Hidden>
+          <Children />
+        </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="Control center show base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\F-5E_Night\Buttons_Knobs_Switches\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>214,618</Location>
-          <Size>64,180</Size>
+          <Location>213,615</Location>
+          <Size>64,115</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Control Center Show Button" SnapTarget="True" Locked="False">
-          <Location>223,635</Location>
+          <Location>223,627</Location>
           <Size>44,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -956,7 +964,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Control Center Show Button 1" SnapTarget="True" Locked="False">
-          <Location>223,675</Location>
+          <Location>223,667</Location>
           <Size>44,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -984,14 +992,14 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Text" Name="Control Center Label" SnapTarget="True" Locked="False">
-          <FillBackground>True</FillBackground>
+          <FillBackground>False</FillBackground>
           <BackgroundColor>#96080808</BackgroundColor>
           <FontColor>#BFDDD126</FontColor>
           <Font>
             <FontFamily>Franklin Gothic</FontFamily>
             <FontStyle>Normal</FontStyle>
             <FontWeight>SemiBold</FontWeight>
-            <FontSize>15</FontSize>
+            <FontSize>15.4166666666667</FontSize>
             <HorizontalAlignment>Center</HorizontalAlignment>
             <VerticalAlignment>Center</VerticalAlignment>
             <Padding>
@@ -1003,8 +1011,8 @@
           </Font>
           <Text>HCC</Text>
           <ScalingMode>Height</ScalingMode>
-          <Location>223,720</Location>
-          <Size>44,36</Size>
+          <Location>223,722</Location>
+          <Size>44,37</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>

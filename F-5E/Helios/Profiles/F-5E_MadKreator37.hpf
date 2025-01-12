@@ -37,12 +37,12 @@
               <Bottom>0</Bottom>
             </Padding>
           </Font>
-          <Text>F_5E_RWR</Text>
+          <Text>LEFT_MFCD</Text>
           <ScalingMode>None</ScalingMode>
           <Location>1273,371</Location>
           <Size>196,196</Size>
           <Hidden>False</Hidden>
-          <ViewportName>F_5E_RWR</ViewportName>
+          <ViewportName>LEFT_MFCD</ViewportName>
           <RequiresPatches>True</RequiresPatches>
           <Children />
         </Control>
@@ -64,13 +64,12 @@
               <Bottom>0</Bottom>
             </Padding>
           </Font>
-          <Text>F_5E_RADAR</Text>
+          <Text>RIGHT_MFCD</Text>
           <ScalingMode>None</ScalingMode>
           <Location>898,453</Location>
           <Size>220,220</Size>
           <Hidden>False</Hidden>
-          <ViewportName>F_5E_RADAR</ViewportName>
-          <RequiresPatches>True</RequiresPatches>
+          <ViewportName>RIGHT_MFCD</ViewportName>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="sky" SnapTarget="False" Locked="False">
@@ -584,6 +583,15 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
+        <Control TypeIdentifier="Helios.Base.Image" Name="Control center show base 2" SnapTarget="False" Locked="False">
+          <Image>MadKreator37\F-5E\Buttons_Knobs_Switches\Generic_Button_Base.png</Image>
+          <Alignment>Stretched</Alignment>
+          <CornerRadius>0</CornerRadius>
+          <Location>213,726</Location>
+          <Size>67,34</Size>
+          <Hidden>False</Hidden>
+          <Children />
+        </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="Control center show base 1" SnapTarget="False" Locked="False">
           <Image>MadKreator37\F-5E\Buttons_Knobs_Switches\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
@@ -597,8 +605,8 @@
           <Image>MadKreator37\F-5E\Buttons_Knobs_Switches\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>214,610</Location>
-          <Size>64,180</Size>
+          <Location>213,615</Location>
+          <Size>67,115</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -659,8 +667,8 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Text" Name="Control Center Label" SnapTarget="True" Locked="False">
-          <FillBackground>True</FillBackground>
-          <BackgroundColor>#96080808</BackgroundColor>
+          <FillBackground>False</FillBackground>
+          <BackgroundColor>#C6080808</BackgroundColor>
           <FontColor>#BFDDD126</FontColor>
           <Font>
             <FontFamily>Franklin Gothic</FontFamily>
@@ -678,7 +686,7 @@
           </Font>
           <Text>HCC</Text>
           <ScalingMode>Height</ScalingMode>
-          <Location>224,710</Location>
+          <Location>223,722</Location>
           <Size>44,37</Size>
           <Hidden>False</Hidden>
           <Children />
