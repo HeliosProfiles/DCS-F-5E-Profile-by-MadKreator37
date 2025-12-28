@@ -20,6 +20,10 @@ This profile was designed and created by myself, in close collaboration with Blu
 ### Version 1.0.4
 - Adjust viewport names to match
 - minor UI adjustment
+### Version 1.0.5
+- Change ADI and Compass to new 3D elements
+- Fix ADI adjustment knob
+- Adjust ADI surround graphic for better alignment
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
