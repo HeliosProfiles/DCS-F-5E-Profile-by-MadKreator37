@@ -24,6 +24,7 @@ This profile was designed and created by myself, in close collaboration with Blu
 - Change ADI and Compass to new 3D elements
 - Fix ADI adjustment knob
 - Adjust ADI surround graphic for better alignment
+- Add a few shadows to Night version 
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
