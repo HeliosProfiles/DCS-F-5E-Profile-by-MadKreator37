@@ -7643,6 +7643,48 @@
           </Text>
           <Children />
         </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="hsi shadow1" SnapTarget="True" Locked="True">
+          <Location>534,410</Location>
+          <Size>41,22</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#7B000000</Color>
+          </Background>
+          <Interaction>
+            <AllowInteractionFull>False</AllowInteractionFull>
+            <AllowInteractionNone>True</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="hsi shadow 2" SnapTarget="True" Locked="True">
+          <Location>674,410</Location>
+          <Size>41,22</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#7B000000</Color>
+          </Background>
+          <Interaction>
+            <AllowInteractionFull>False</AllowInteractionFull>
+            <AllowInteractionNone>True</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="reticle dep shadow" SnapTarget="True" Locked="True">
+          <Location>1038,67</Location>
+          <Size>45,22</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Color>#7B000000</Color>
+          </Background>
+          <Interaction>
+            <AllowInteractionFull>False</AllowInteractionFull>
+            <AllowInteractionNone>True</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children />
+        </Control>
         <Control TypeIdentifier="Helios.Panel" Name="Right Console 2" SnapTarget="True" Locked="False">
           <Location>1485,97</Location>
           <Size>435,980</Size>
