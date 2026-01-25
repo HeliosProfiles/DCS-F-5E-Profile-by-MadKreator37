@@ -25,6 +25,8 @@ This profile was designed and created by myself, in close collaboration with Blu
 - Fix ADI adjustment knob
 - Adjust ADI surround graphic for better alignment
 - Add a few shadows to Night version 
+### Version 1.0.6
+- Fix OH-6A image references in h.ydraulic gauges-- Night Version
 
 *NOTE*: The added functions:  F-keys Esc, Rearm, Briefing, Kneeboard etc buttons require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
