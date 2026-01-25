@@ -6936,7 +6936,7 @@
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
               <Location>2,1</Location>
-              <Size>96,93</Size>
+              <Size>85,85</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -6990,7 +6990,7 @@
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
               <Location>2,1</Location>
-              <Size>96,93</Size>
+              <Size>85,85</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
